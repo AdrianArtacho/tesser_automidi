@@ -2,7 +2,7 @@
 	"name" : "Tesser_AutoMidi",
 	"version" : 1,
 	"creationdate" : 3719551011,
-	"modificationdate" : 3719551025,
+	"modificationdate" : 3719944579,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,7 +29,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 0,
+	"amxdtype" : 1835887981,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
