@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 105.0, 87.0, 893.0, 960.0 ],
-		"bglocked" : 0,
+		"rect" : [ 105.0, 87.0, 893.0, 779.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-68",
@@ -343,6 +318,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "AllNotesOffToggle",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "AllOff",
 							"parameter_type" : 2
 						}
@@ -435,7 +411,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.5, 738.0, 50.0, 22.0 ],
-					"text" : "42 105"
+					"text" : "42 0"
 				}
 
 			}
@@ -551,6 +527,7 @@
 							"parameter_enum" : [ "Raw inputted midinotes", "Reconstructed Midinotes from CC", "Inputted midi pitches triggered via CC", "Inputted midi velocities via CC pitches", "trigger CC input with midinote" ],
 							"parameter_longname" : "live.menu",
 							"parameter_mmax" : 4,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
@@ -706,6 +683,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "vel_toggle",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "vel_toggle",
 							"parameter_type" : 2
 						}
@@ -741,6 +719,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "pitch_toggle",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "pitch_toggle",
 							"parameter_type" : 2
 						}
@@ -770,6 +749,7 @@
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "cc87",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "cc87",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -830,6 +810,7 @@
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Velocity",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "midinum",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -867,6 +848,7 @@
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "midinote(name)",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "note",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -910,7 +892,7 @@
 						"cc87" : [ 0.0 ],
 						"main_menu" : [ 0.0 ],
 						"midinote(midinumber)" : [ 27.0 ],
-						"pitch_toggle" : [ 1.0 ],
+						"pitch_toggle" : [ 0.0 ],
 						"vel_toggle" : [ 0.0 ]
 					}
 ,
@@ -932,6 +914,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "tesser_mirror",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "tesser_mirror",
 							"parameter_type" : 3
 						}
@@ -968,6 +951,7 @@
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "cc86",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "cc86",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1013,8 +997,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 880.0, 748.0, 407.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://bitbucket.org/AdrianArtacho/tesser_automidi/src"
+					"patching_rect" : [ 880.0, 748.0, 378.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/AdrianArtacho/tesser_automidi"
 				}
 
 			}
@@ -1079,6 +1063,7 @@
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "midinote(midinumber)",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "midinum",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1763,6 +1748,7 @@
 
 			}
  ],
+		"originid" : "pat-120",
 		"parameters" : 		{
 			"obj-12" : [ "live.menu", "live.menu", 0 ],
 			"obj-138" : [ "cc86", "cc86", 0 ],
