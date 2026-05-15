@@ -1,4 +1,4 @@
-This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
+This Patch is part of the [TESSER environment](https://github.com/AdrianArtacho/TesserAkt).
 
 ![TTESS:Logo](https://github.com/AdrianArtacho/TesserAkt/blob/main/img/TESSER_logo.png)
 
@@ -6,7 +6,7 @@ This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtac
 
 This device is analogous to an *autotune* effect, only with midi. It takes *midinotes* and allows to substitute the entered midinote *number* and/or *velocity* with alternative **CC values** entered via **CC86** and **CC87**.
 
-![TESS:automidi](img/gui)
+![TESS:automidi](img/gui.png)
 
 ---
 
