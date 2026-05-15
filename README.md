@@ -1,7 +1,3 @@
-This Patch is part of the [TESSER environment](https://github.com/AdrianArtacho/TesserAkt).
-
-![TTESS:Logo](https://github.com/AdrianArtacho/TesserAkt/blob/main/img/TESSER_logo.png)
-
 # Tesser_AutoMidi
 
 This device is analogous to an *autotune* effect, only with midi. It takes *midinotes* and allows to substitute the entered midinote *number* and/or *velocity* with alternative **CC values** entered via **CC86** and **CC87**.
@@ -31,6 +27,14 @@ ___
 ### Use with `clip3seq`
 
 The menu option `trigger CC input with midinote` is designed to trigger the notes entered via CC (usually `CC86` for midi pitch), using the velocity of the midinote entered, for example, with a keyboard.
+
+---
+
+## TesserAkt
+
+This Patch is part of the [TesserAkt environment](https://github.com/AdrianArtacho/TesserAkt).
+
+![TTESS:Logo](https://github.com/AdrianArtacho/TesserAkt/blob/main/img/TESSER_logo.png)
 
 ---
 
